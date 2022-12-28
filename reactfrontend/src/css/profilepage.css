@@ -1,0 +1,36 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #ff706b;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgb(246, 101, 101), rgba(253, 160, 133, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgb(246, 101, 101), rgba(253, 160, 133, 1))
+  }
+
+
+.profile_card {
+    margin: 0 auto;
+    text-align: center;
+      display: -webkit-flex;
+      display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+      -webkit-justify-content: center; 
+    justify-content: center;
+    -webkit-flex-wrap: wrap; 
+      flex-wrap: wrap;
+      margin-top: 10%;
+      margin-bottom: 20px;
+      padding: 1.5%;
+    background-color: white;
+    min-height: 100vh;
+    max-width: 600px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-family: Industry;
+  }
+  
+  .profile_card:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.16), 0 4px 10px rgba(0,0,0,0.23);
+  }
